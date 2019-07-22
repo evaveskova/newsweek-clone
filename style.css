@@ -145,6 +145,7 @@ body {
 
 article {
 	padding-bottom: 20px;
+	width: 100%;
 }
 
 .wrap {
@@ -586,16 +587,11 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
-	.logoimg {
-		width: 132px;
-		height: 20px;
-		left: 100px;
-		top: 10px;
+	.logo img {
+		width: 13vw;
+		height: 2vh;
 	}
 
-	.fa-bars {
-		color: #fff;
-	}
 
 	#navscroll {
 		padding: 3px 0px;
@@ -614,10 +610,6 @@ footer {
 		padding: 6px;
 	}
 
-	.fa-chevron-right {
-		display: none !important;
-	}
-
 	.header-bottom {
 		display: none;
 	}
@@ -632,6 +624,13 @@ footer {
 }
 
 @media (max-width: 767px) {
+
+	.logo img {
+		height: 2vh;
+		width: 12vh;
+		float:left;
+	}
+
 	.image {
 		width: 258px;
 	}
@@ -647,4 +646,16 @@ footer {
 	.media-icons {
 		text-align: left;
 	}
+}
+
+@media (max-width: 480px) {
+
+	.logo img {
+		height: 20px;
+		width: 120px;
+		margin-left: 0;
+		padding-left: 0;
+		position: relative;
+	}
+
 }
