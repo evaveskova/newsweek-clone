@@ -13,4 +13,4 @@ Used:
 - Eva Aleksandra Veskova Jackson -- https://github.com/evaveskova/
 
 **Website**
-https://rawcdn.githack.com/evaveskova/newsweek-clone/1247bd1f4a8ec8885ebca994de384efa6487cc5a/index.html
+https://rawcdn.githack.com/evaveskova/newsweek-clone/a4d4fd55ba82118f17210ecf2f2f7568daf875fc/index.html
