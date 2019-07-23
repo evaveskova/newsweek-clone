@@ -210,7 +210,6 @@ h6 {
 	font-weight: 700;
 }
 
-
 .opinion {
 	border-bottom: 1px solid #ddd;
 	padding-top: 10px;
@@ -243,7 +242,6 @@ h6 {
 .article-info {
 	padding: 20px 0px;
 }
-
 
 .block {
 	position: relative;
@@ -459,9 +457,6 @@ h6 {
 	margin-top: 20px;
 }
 
-.sunscribe {
-	margin-bottom: 20px;
-}
 
 .items {
 	background-color: #f4f5f6;
@@ -471,8 +466,7 @@ h6 {
 	margin-bottom: 30px;
 }
 
-.item1,
-.item2 {
+.item1 {
 	padding: 20px 0px 40px;
 }
 
@@ -481,13 +475,13 @@ h6 {
 	padding-bottom: 100px;
 }
 
-.itemsimg {
+.items img {
 	width: 120px;
 	float: left;
 	margin-right: 20px;
 }
 
-.itemsspan::before {
+.items span::before {
 	content: '✓';
 	color: #999;
 	font-size: 26px;
@@ -495,7 +489,7 @@ h6 {
 	text-align: center;
 }
 
-.itemsspan {
+.items span {
 	font-size: 15px;
 	margin-top: 5px;
 }
